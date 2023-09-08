@@ -22,11 +22,16 @@ The first image is a PNG at 81KB and the second is a WebP image at 12KB
 
 ![WebP](./images/demo.webp)
 
-# Use
+## Use
 
 To install, make sure you have python installed on your device. Download the webp.py file and change the OUTPUT file to be the folder you want your images to be saved to.
 
-Run it from your terminal using:  
+### Install: 
+```
+pip install tkinterdnd2 pillow pdf2image
+```
+
+### Run it from your terminal using:  
 
 ```
 python3 /path/to/file/webp.py
