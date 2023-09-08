@@ -21,3 +21,11 @@ The first image is a PNG at 81KB and the second is a WebP image at 12KB
 ![png](./images/demo.png)
 
 ![WebP](./images/demo.webp)
+
+# Use
+
+To install, make sure you have python installed on your device. Download the webp.py file and run it from your terminal using:  
+
+```
+python3 /path/to/file/webp.py
+```
