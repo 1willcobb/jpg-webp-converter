@@ -7,6 +7,8 @@ import os
 import sys
 print(sys.path)
 
+OUTPUT = "/Users/1willcobb/desktop"
+
 # Function to convert an image JPG to WebP
 def convert_image_to_webp(input_path, output_path, quality=80):
     with Image.open(input_path) as img:
@@ -77,7 +79,7 @@ drop_target.pack()
 
 drop_target.drop_target_register(DND_FILES)
 drop_target.dnd_bind('<<Drop>>', lambda event: on_drop(
-    "/Users/1willcobb/desktop", event))
+    OUTPUT, event))
 
 # Create and configure the quality slider
 quality_label = tk.Label(root, text="Quality:")
