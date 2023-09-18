@@ -31,6 +31,8 @@ To install, make sure you have python installed on your device. Download the web
 pip install tkinterdnd2 pillow pdf2image
 ```
 
+You may need to run a Venv
+
 ### Run it from your terminal using:  
 
 ```

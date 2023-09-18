@@ -6,6 +6,19 @@
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
 	<string>webp</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>****</string>
+				<string>fold</string>
+				<string>disk</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
 	<key>CFBundleExecutable</key>
 	<string>webp</string>
 	<key>CFBundleIconFile</key>
@@ -41,9 +54,9 @@
 	<key>PyOptions</key>
 	<dict>
 		<key>alias</key>
-		<true/>
-		<key>argv_emulation</key>
 		<false/>
+		<key>argv_emulation</key>
+		<true/>
 		<key>emulate_shell_environment</key>
 		<false/>
 		<key>no_chdir</key>
@@ -64,7 +77,6 @@
 	<key>PyRuntimeLocations</key>
 	<array>
 		<string>@executable_path/../Frameworks/libpython3.9.dylib</string>
-		<string>/Users/1willcobb/opt/anaconda3/lib/libpython3.9.dylib</string>
 	</array>
 	<key>PythonInfoDict</key>
 	<dict>
@@ -78,7 +90,7 @@
 		<key>py2app</key>
 		<dict>
 			<key>alias</key>
-			<true/>
+			<false/>
 			<key>template</key>
 			<string>app</string>
 			<key>version</key>

@@ -2,7 +2,8 @@ from setuptools import setup
 
 APP = ['webp.py']
 DATA_FILES = []
-OPTIONS = {}
+OPTIONS = {'argv_emulation': True, 'includes': ['pdf2image', 'PIL',
+                                                'tkinterdnd2', 'tkinter', 'os', 'sys']}
 
 setup(
     app=APP,
