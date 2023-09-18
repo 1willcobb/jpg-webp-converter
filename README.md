@@ -24,7 +24,7 @@ The first image is a PNG at 81KB and the second is a WebP image at 12KB
 
 ## Use
 
-To install, make sure you have python installed on your device. Download the webp.py file and change the OUTPUT file to be the folder you want your images to be saved to.
+To install, make sure you have python installed on your device. Download the webp.py file and change the OUTPUT file to be the folder you want your images to be saved to. 
 
 ### Install: 
 ```
